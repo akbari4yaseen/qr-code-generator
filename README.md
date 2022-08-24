@@ -6,7 +6,7 @@ Screenshoot
 
 ![Screenshoot](app_screenshot.jpg?raw=true)
 
-[Live Demo]()
+[Live Demo](https://akbari4yaseen.github.io/qr-code-generator/)
 
 ## Built With
 
@@ -44,10 +44,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Thank you Microverse for this big opportunity
 
 ## 📝 License
 
