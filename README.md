@@ -2,7 +2,7 @@
 
 > QR Code Generator generates QR Code from inserted URL. Then you can export and save the generated
 
-Screenshoot
+Screenshot
 
 ![Screenshoot](app_screenshot.jpg?raw=true)
 
