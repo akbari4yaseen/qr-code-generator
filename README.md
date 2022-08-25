@@ -21,7 +21,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### `git clone https://github.com/akbari4yaseen/qr-code-generator.git`
+```
+git clone https://github.com/akbari4yaseen/qr-code-generator.git
+```
 
 ### Run tests
 
