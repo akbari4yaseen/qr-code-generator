@@ -1,6 +1,6 @@
 # QR Code Generator
 
-> QR Code Generator generates QR Code from inserted URL. Then you can export and save the generated
+> QR Code Generator generates QR Code from inserted URL. Then you can export and save the generated QR Code as image.
 
 Screenshot
 
