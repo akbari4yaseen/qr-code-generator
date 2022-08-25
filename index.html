@@ -39,21 +39,22 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="mx-8 md:mx-0">
       <div
-        class="max-w-5xl flex flex-col-reverse align-center justify-center m-auto md:mx-w-4xl"
+        class="max-w-5xl flex flex-col-reverse align-center justify-center m-auto md:max-w-4xl"
       >
         <div class="self-center">
           <h1 class="text-3xl font-bold mb-5 md:text-4xl">QR Code Generator</h1>
           <p class="mb-4">
             QR Codes allow smartphone users to access your website simply and
+            quickly.
           </p>
           <p>
             Enter your URL below to generate a QR Code and download the image.
           </p>
           <form id="qrcode-form" class="mt-4">
             <input
-              class="w-full border-2 bordder-gray-200 rounded p-3 text-gray-dark mr-2 focus:outline-none mb-5"
+              class="w-full border-2 bordder-gray-200 rounded p-3 text-gray-dark mr-2 mb-5 focus:outline-none"
               id="url"
               type="url"
               placeholder="Enter your URL here"
@@ -72,7 +73,7 @@
               <option value="700">700x700</option>
             </select>
             <button
-              class="bg-blue-600 rounded w-full text-white py-3 px-4 mt-5 font hover:bg-blue-900"
+              class="bg-blue-600 rounded w-full text-white py-3 px-4 mt-5 hover:bg-blue-900"
               type="submit"
             >
               Generate QR Code
@@ -86,7 +87,7 @@
 
       <!-- Genrated QR Code -->
       <div
-        class="mx-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20"
+        class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20 m-auto md:max-w-4xl"
         id="generated"
       >
         <figure

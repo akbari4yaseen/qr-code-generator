@@ -52,7 +52,7 @@ const createSaveBtn = (saveUrl) => {
   const saveButton = document.createElement("a");
   saveButton.id = "save-button";
   saveButton.classList =
-    "bg-blue-900 text-white font-bold py-2 my-5 rounded w-1/3 m-auto hover:bg-blue-700";
+    "bg-blue-900 text-white py-2 px-4 my-5 w-max self-center rounded hover:bg-blue-700";
   saveButton.href = saveUrl;
   saveButton.download = "qrcode";
   saveButton.innerHTML = "Export Image";
